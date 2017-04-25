@@ -1,0 +1,8 @@
+page-home {
+
+}
+.background-gradient{
+  background: linear-gradient(150deg, map-get($colors, carefinder-primary),
+  map-get($colors, carefinder-secondary));
+
+}
