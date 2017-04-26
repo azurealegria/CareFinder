@@ -1,8 +1,18 @@
-page-home {
+page-home {}
 
+.background-gradient {
+  background: linear-gradient(150deg, map-get($colors, carefinder-primary), map-get($colors, carefinder-secondary));
 }
-.background-gradient{
-  background: linear-gradient(150deg, map-get($colors, carefinder-primary),
-  map-get($colors, carefinder-secondary));
 
+#logo {
+  margin: 80px 50px 15px 50px;
+  height: auto;
+  border: 1px solid black;
+}
+
+#image-logo {
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
